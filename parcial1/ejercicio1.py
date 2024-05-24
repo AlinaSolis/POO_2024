@@ -2,9 +2,9 @@
 # Mostrar su valor en pantalla
 #Poner un comentario para poner el tipo de dato
 # Alina Alecxandra Solis Guereca
-
-pais="Pais"
-continente="Continente"
+#Tipo de dato String 
+pais="Pais"   #Tipo de dato String 
+continente="Continente"   #Tipo de dato String 
 
 print(pais)
 pais=input("Ingresa el nombre del pais: ")

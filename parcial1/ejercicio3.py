@@ -8,6 +8,7 @@ while conta<= 60:
     acu = conta * conta
     print("con while, el cuadrado de: ", conta, "es: ", acu)
     conta+=1
+#llegar a un limite para que no quede ciclado
 
 conta=1
 acu=0

@@ -41,3 +41,4 @@ def captura():
 
 if True:
     captura()
+    

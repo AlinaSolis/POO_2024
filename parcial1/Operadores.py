@@ -1,6 +1,7 @@
 #Operaadores Aritmeticos
 #Arithmetic Operators
 #Operador Name Example
+#Se utiliza con un ctrl alt y aplastar la linea investida \
 #TIPO DE NUMERO ENTERO "estan son las variables":
 #cuando es Entero: int Cadena:str  Logico:bol Real:float
 #Antes de un Impir va auna variable 

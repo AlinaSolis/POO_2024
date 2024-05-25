@@ -3,7 +3,9 @@ siono ="SI"
 siono.upper()
 contador = 0
 cap = 0
-while siono == "SI":
+
+while True:
+ if siono == "SI":
      nomta = input("Intrudisca el Nombre del trabajador: ")
      hora = float(input("Intrudisca las Horas trabajadas: "))
      dias = float(input("Intrudisca dias trabajadas: "))
@@ -28,5 +30,7 @@ while siono == "SI":
      siono=str(input("¿Deseas otra captura?: (SI/NO)"))
      siono=siono.upper()
 
+     break
+  
 
 

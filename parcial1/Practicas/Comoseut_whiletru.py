@@ -28,5 +28,4 @@ while True:
     if siono == "NO":
 
         break
-   
-   
+    

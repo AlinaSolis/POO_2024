@@ -33,7 +33,7 @@ while True:
    if siono=="NO":
       break
   
-print(contador)
+print("Se capturaron un total de: ", contador, " trabajadores")
 print("Sueldo de los trabajadores: ", acumulador)
 
 

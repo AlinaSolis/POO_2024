@@ -52,10 +52,10 @@ def VaciarLista():
 # Menú principal
 while True:
     print("\n\t..:: GESTIONADOR DE PELÍCULAS ::..")
-    print(" 1. Agregar película")
-    print(" 2. Eliminar película")
-    print(" 3. Consultar películas")
-    print(" 4. Buscar película")
+    print(" 1. Agregar pelicula")
+    print(" 2. Eliminar pelicula")
+    print(" 3. Consultar peliculas")
+    print(" 4. Buscar pelicula")
     print(" 5. Vaciar lista de películas")
     print(" 6. Salir")
     opcion = input("Seleccione una opción: ")
@@ -71,7 +71,7 @@ while True:
     elif opcion == "5":
         VaciarLista()
     elif opcion == "6":
-        print("¡Hasta luego!")
+        print("¡adios!")
         break
     else:
         print("Opción no válida. Por favor, seleccione una opción válida.")

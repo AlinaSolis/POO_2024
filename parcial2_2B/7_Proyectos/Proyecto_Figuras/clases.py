@@ -49,7 +49,7 @@ class Circulos(Figura):
         super()._init_(radio,radio)
 
     def area(self):
-        return 3.14*(self.x**2)
+        return 3.1416*(self.x**2)
 
     def get_radio(self):
         return self.x

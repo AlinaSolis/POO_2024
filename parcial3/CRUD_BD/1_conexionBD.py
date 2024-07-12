@@ -17,4 +17,3 @@ except Exception as e:
 # else:
 
 #     print("Se creo la conexion con la base de datos")
-#

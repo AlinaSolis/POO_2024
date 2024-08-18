@@ -6,7 +6,7 @@ from funciones import *
 def menu_principal():
     while True:    
         borrarPantalla()
-        print("""
+        print("""1
       .::  Menu Principal ::. 
           1.- Registro
           2.- Login
@@ -86,7 +86,8 @@ def menu_notas(usuario_id,nombre,apellidos):
                 print(f"\n\t {nombre} {apellidos}, tus notas son: ")
                 num_notas=1
                 for fila in registros:
-                   print(f"\nNota: {num_notas} \nID: {fila[0]}.- Titulo: {fila[2]}         Fecha de Creación: {fila[4]} \nDescripción: {fila[3]}") 
+                   print(f"\nNota: {num_notas} \nID: {fila[0]}.- Titulo: {fila[2]} 
+                         Fecha de Creación: {fila[4]} \nDescripción: {fila[3]}") 
                    num_notas+=1    
             else:
                 print(f"\n \t \t** No existen notas para el usuario ... vuelva a intentarlo **...")

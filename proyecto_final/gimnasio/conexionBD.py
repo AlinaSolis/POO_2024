@@ -6,8 +6,7 @@ try:
         host='localhost',
         user='root',
         password='',
-        database='bd_notas'
-        
+        database='bd_gimansio'
     )
     #Crear un objeto de tipo cursor que se pueda reutilizar nuevamente
     cursor=conexion.cursor(buffered=True)
